@@ -26,9 +26,9 @@
       <source-file src="src/android/com/paytm/MyApplication.java" target-dir="src/com/paytm" />
       <source-file src="src/android/res/layout/custom_layout.xml" target-dir="res/layout" />
       <framework src="src/android/plugin.gradle" custom="true" type="gradleReference"/>
-    <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+<!--     <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
       <application android:name="com.paytm.MyApplication"/>
-    </edit-config>
+    </edit-config> -->
     </platform>
     
     <!-- iOS -->
